@@ -1,9 +1,10 @@
+/* below 1248px (landscape tablets) */
 @media (max-width: 78em) {
   .hero {
     max-width: 120rem;
   }
   .heading-primary {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .logo {
     margin-left: 2rem;
@@ -17,13 +18,106 @@
   .btn:link,
   .btn:visited {
     margin-bottom: 3rem;
+    padding: 1rem 1rem;
   }
 }
-@media (max-width: 56em) {
-  .hero {
-    display: block;
+/* below 936px */
+@media (max-width: 58.5em) {
+  /* .hero {
+    grid-template-columns: 1fr;
+  } */
+  /* .btn-outline:link,
+  .btn-outline:visited {
+    visibility: hidden;
+  } */
+
+  .delivered-meals {
+    margin-top: -6rem;
   }
-  .hero-image-box {
-    visibility: ;
+  .heading-primary {
+    font-size: 2.8rem;
+  }
+  .hero-description {
+    font-size: 1.8rem;
+  }
+  .container {
+    padding: 2.5rem 3rem 5rem 5rem;
+  }
+  .logos img {
+    padding: 0.5rem;
+    height: 3.8rem;
+  }
+  .grid {
+    row-gap: 3rem;
+  }
+  .section-how {
+    padding: 0;
+  }
+}
+/* tablet 768px */
+@media (max-width: 40em) {
+  .grid--2-cols,
+  .grid--3-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  html {
+    font-size: 55%;
+  }
+  .heading-primary {
+    font-size: 2.2rem;
+    margin-bottom: 2.1rem;
+  }
+  .hero-description {
+    font-size: 1.5rem;
+  }
+  .btn:link,
+  .btn:visited {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    margin-right: 5rem;
+  }
+  .delivered-imgs img {
+    height: 4rem;
+  }
+  .delivered-text {
+    font-size: 1.2rem;
+  }
+  .main-nav-link:link {
+    font-size: 1.3rem;
+  }
+  .hero {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .delivered-meals {
+    margin-top: -1rem;
+  }
+  .hero-img {
+    width: 60%;
+    margin-left: 12rem;
+  }
+  .logos img {
+    height: 2.9rem;
+  }
+  .featured-heading {
+    font-size: 1.6rem;
+  }
+  .heading-secondary {
+    font-size: 2.2rem;
+  }
+  .heading-tertiary {
+    font-size: 2rem;
+  }
+  .subheading {
+    font-size: 1.4rem;
+  }
+  .step-number {
+    font-size: 6rem;
+  }
+  .step-description {
+    font-size: 1.6rem;
+  }
+  .step-img {
+    width: 35%;
   }
 }
