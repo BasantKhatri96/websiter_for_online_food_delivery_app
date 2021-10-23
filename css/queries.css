@@ -26,10 +26,10 @@
   /* .hero {
     grid-template-columns: 1fr;
   } */
-  /* .btn-outline:link,
+  .btn-outline:link,
   .btn-outline:visited {
     visibility: hidden;
-  } */
+  }
 
   .delivered-meals {
     margin-top: -6rem;
