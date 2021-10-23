@@ -1,0 +1,29 @@
+@media (max-width: 78em) {
+  .hero {
+    max-width: 120rem;
+  }
+  .heading-primary {
+    font-size: 4rem;
+  }
+  .logo {
+    margin-left: 2rem;
+  }
+  .hero-description {
+    margin-bottom: 3rem;
+  }
+  .delivered-meals {
+    margin-top: 8rem;
+  }
+  .btn:link,
+  .btn:visited {
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 56em) {
+  .hero {
+    display: block;
+  }
+  .hero-image-box {
+    visibility: ;
+  }
+}
