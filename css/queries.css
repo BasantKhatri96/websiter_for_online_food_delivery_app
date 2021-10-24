@@ -26,11 +26,10 @@
   /* .hero {
     grid-template-columns: 1fr;
   } */
-  .btn-outline:link,
-  .btn-outline:visited {
-    visibility: hidden;
+  .btn:link,
+  .btn:visited {
+    padding: 0.5rem 1rem;
   }
-
   .delivered-meals {
     margin-top: -6rem;
   }
@@ -119,5 +118,17 @@
   }
   .step-img {
     width: 35%;
+  }
+  .step-image-box:nth-child(2) {
+    grid-row: 1;
+  }
+  .step-image-box:nth-child(6) {
+    grid-row: 5;
+  }
+}
+
+@media (max-width: 30.7em) {
+  html {
+    font-size: 50%;
   }
 }
